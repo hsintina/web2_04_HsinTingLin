@@ -1,3 +1,10 @@
+function play(){
+	var audio = document.getElementById("audio");
+	audio.play();
+			  }
+$(".bb").click(function(){
+	play();
+});
 $(document).ready(function(){
 
 //Sign up for an account at https://thecatapi.com/ to get your API Key and insert below
@@ -23,7 +30,10 @@ $.getJSON(url, function(data){
 	 $('#content').append(output);
 
 	 $('img').click(function(){
-		alert("You clicked!");
+		
+		play();
+		alert("ฅ•ω•ฅ");
+		
 	});
 });
 

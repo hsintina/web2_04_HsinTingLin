@@ -1,0 +1,54 @@
+body {
+  background: #fefefe;
+  color: #d7688b;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 20px;
+  height: 2000px;
+  text-align: center;
+}
+
+.btn, .btn-pink, .btn-blue, .btn-white {
+  width: 50px;
+  height: 20px;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  margin: 20px;
+  font-weight: 700;
+}
+
+.btn-white {
+  border: solid white 1px;
+  background-color: #eeeeee;
+  color: #111111;
+}
+
+.btn-blue {
+  border: solid white 2px;
+  background-color: blue;
+  color: #111111;
+}
+
+.btn-pink {
+  border: solid white 3px;
+  background-color: #d7688b;
+  color: #111111;
+}
+
+hr {
+  margin: 30px 100px;
+}
+
+#wrapper {
+  margin: 0 auto;
+  padding: 5%;
+}
+
+#content img {
+  padding: 1%;
+  vertical-align: middle;
+  width: 20%;
+}
+
+/*# sourceMappingURL=style.css.map */

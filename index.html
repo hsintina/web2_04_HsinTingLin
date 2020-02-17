@@ -4,33 +4,18 @@
     <meta charset="UTF-8">
     <title>API practice</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <style>
-    /* update the styling to make it your own */
-    body {
-	    background: #eeeeee;
-	    color: #d7688b;
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 10px 20px;
-        height: 2000px;
-    }
+    <link rel="stylesheet" href="/Users/tina/web2_04_HsinTing/style.css">
     
-    #wrapper {
-	    margin: 0 auto;
-	    padding: 5%;
-    }
-    
-    #content img {
-	    padding: 1%;
-	    vertical-align: middle;
-	    width: 20%;
-    }
-    
-    </style>
     
 </head>  
 <body>
-    <h1 class="animated bounce faster">Meow</h1>
+    <h1 class="animated heartBeat fast infinite">Meow Meow Kingdom</h1>
+    <div class="bb btn-pink" onclick="alert('meow')">cat1</div>
+    <div class="bb btn-white" onclick="alert('meow meow')">cat2</div>
+    <div class="bb btn-blue" onclick="alert('meow meow meow')">cat3</div>
+    <hr>
     <div id="content"></div>
+    <audio id="audio" src="kitty.mp3" ></audio>
     
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="js/scripts.js"></script>
